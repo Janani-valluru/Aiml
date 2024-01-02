@@ -9,7 +9,7 @@ iris = datasets.load_iris()
 x=pd.DataFrame(iris.data) 
 x.columns=['Sepal_Length', 'Sepal_Width', 'Petal_Length', `Petal_Width']
 Y =pd.DataFrame(iris. target)
-Y.columns = [ Targets']
+Y.columns = [ 'Targets']
 print(x)
 print(Y)
 colormap = np.array([`red', 'lime', 'black'))
