@@ -8,7 +8,7 @@ import numpy as nр
 iris = datasets.load_iris()
 x=pd.DataFrame(iris.data) 
 x.columns=['Sepal_Length', 'Sepal_Width', 'Petal_Length', `Petal_Width']
-Y =dp.DataFrame(iris. target)
+Y =pd.DataFrame(iris. target)
 Y.columns = [ Targets']
 print(x)
 print(Y)
